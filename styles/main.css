@@ -1,0 +1,117 @@
+/* the styles for the elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid green;
+}
+
+/* the styles for the header */
+header h1 {
+    padding: 1em;
+    font-size: 200%;
+    font-variant: small-caps;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+/* the styles for the main content */
+img {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 1em;
+}
+
+p {
+    margin: 1em;
+}
+
+div {
+    margin-bottom: 50px;
+}
+
+/* the styles for the footer */
+footer {
+    padding: 2em;
+    font-size: 80%;
+    font-variant: small-caps;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+
+
+/**************************************************************
+***************************************************************
+*****                                                     *****
+*****                 Media Queries                       *****
+*****                                                     *****
+*****                                                     *****
+*****                                                     *****
+***************************************************************
+**************************************************************/
+/* tablet portrait to standard 960 */
+@media only screen and (max-width: 959px) {
+    html {
+        background-color: white;
+    }
+    body {
+        border: none;
+        width: 100%;
+        font-size: 110%;
+    }
+    .pimgLeft, .pimgRight {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding: 0 0 1em;
+    }
+    p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+    header img { float: none; }
+    header { text-align: center; }
+    body {
+        width: 100%;
+        font-size: 100%;
+    }
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+    body { font-size: 90%; }
+}

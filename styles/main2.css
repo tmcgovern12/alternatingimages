@@ -1,0 +1,56 @@
+/* the styles for the elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    background-image: url(../images/background.png);
+}
+
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid green;
+}
+
+/* the styles for the header */
+header h1 {
+    padding: 1em;
+    font-size: 200%;
+    font-variant: small-caps;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+/* the styles for the main content */
+img {
+    max-width: 500px;
+    width: 100%;
+    padding: 1em;
+}
+
+p {
+    margin: 1em;
+}
+
+main div {
+    margin-bottom: 50px;
+}
+
+/* the styles for the footer */
+footer {
+    padding: 2em;
+    font-size: 80%;
+    font-variant: small-caps;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
