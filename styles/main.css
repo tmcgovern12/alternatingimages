@@ -5,11 +5,11 @@
     padding: 0;
 }
 
-/* .clearfix::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
-} */
+} 
 
 html {
     background-color: black;
@@ -18,7 +18,7 @@ html {
 body {
     font-family: Calibri, Arial, Helvetica, sans-serif;
     font-size: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     border: 1px solid green;
@@ -30,7 +30,11 @@ body {
 
 .pimgRight {
     float: right;
-    margin: 0 0 10px 10px;;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px ;
+    padding: 0 0 1em;
 }
 
 p {
@@ -40,6 +44,7 @@ p {
 .pimgLeft {
     float: left;
     width: 100%;
+    max-width: 400px;
     display: block;
     margin: 20px ;
     padding: 0 0 1em;
