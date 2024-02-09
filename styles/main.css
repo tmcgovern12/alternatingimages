@@ -24,6 +24,32 @@ body {
     border: 1px solid green;
 }
 
+
+
+
+
+.pimgRight {
+    float: right;
+    margin: 0 0 10px 10px;;
+}
+
+p {
+    margin-right: 30px;
+}
+
+.pimgLeft {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 20px ;
+    padding: 0 0 1em;
+}
+
+p {
+    margin-left: 30px;
+}
+
+
 /* the styles for the header */
 header h1 {
     padding: 1em;
@@ -80,13 +106,7 @@ footer {
         width: 100%;
         font-size: 110%;
     }
-    .pimgLeft, .pimgRight {
-        float: none;
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding: 0 0 1em;
-    }
+    
     p {
         width: 90%;
         margin: 0 auto;
